@@ -1,0 +1,412 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+h2{
+	font:normal 25px Georgia;
+	line-height: 200%;
+	color: red;
+	background-color: transparent;
+	border-bottom: 2px dotted black;
+	margin-bottom: 5px;
+}
+
+body{
+	margin-top: 10px;
+	background-color: #161616;
+	font-family: times new roman;
+	text-align: center;
+}
+
+
+
+.header{
+	background-image: url(../images/header.jpg);
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 930px;
+	border-left: 1px solid #7E7E7E;
+	border-right: 1px solid #7E7E7E;
+	height: 132px;
+	text-align: left;
+	font-family: Arial, Verdana, Helvectica, sans_serif;
+	font-size: 0.4em;
+}
+
+.menu{
+	width: 930px;
+	position: relative;
+	top: 100px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+.menu .left{
+	float: left;
+	width: 930px;
+	background-color: #E5E5E5;
+}
+
+.menu ul{
+	font-family: times new roman;
+	font-size: 12px;
+	margin: 0;
+	padding: 0px;
+	border: 0;
+	height: 30px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	position: relative;
+	float: left;
+}
+
+.menu ul li a{
+	display: block;
+	float: left;
+	height: 22px;
+	width: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #BFBFBF;
+	color: #215198;
+	text-decoration: none;
+	padding-bottom: 0px;
+}
+
+.menu ul li a:hover{
+	color: yellow;
+	background-color: lightgreen;
+}
+
+.menu ul li ul{
+	display: none;
+}
+
+.menu ul li:hover ul{
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 32px;
+	z-index: 1;
+}
+
+.menu ul li:hover ul li a{
+	display: block;
+	left: 0px;
+	background-color: lightgreen;
+	width: 180px;
+	height: 14px;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+	border: 1px solid lightgreen;
+	padding: 7px;
+	font-family: times new roman;
+	font-size: 12px;
+
+}
+
+.menu ul li:hover ul li a:hover{
+	left: 0px;
+	color: yellow;
+	border: 1px solid lightgreen;
+	background-color: red;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.cari{
+	margin-left: 650px;
+	margin-bottom: 10px;
+	margin-top: -23px;
+}
+
+.wrap{
+	background-color: #fff;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 930px;
+	border: 1px solid #7F7F7F;
+	padding-top: 0px;
+	text-align: left;
+
+}
+
+.wrap .home_kasir{
+	background-image: url(../images/background_kasir.jpg);
+	margin-top: -6px; 
+	margin-left: -20px;
+	margin-right: -20px;
+	height: 300px;
+	color: white;
+}
+
+.wrap .home_cetak{
+	background-image: url(../images/background_cetak.jpg);
+	margin-top: -6px; 
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: -20px;
+}
+
+.home_cetak td{
+	color: white;
+}
+
+.home_cetak b{
+	color: Aqua;
+}
+
+.wrap .home_kasir b{
+	color: blue;
+}
+
+.transaksi{
+	font-size: 20px;
+	color: yellow;
+	background-image: url(../images/background_transaksi.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+    background-repeat: none;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -6px;
+	margin-bottom: -20px;
+}
+
+.transaksi td{
+	color: white;
+}
+
+.content{
+
+	margin: 0 20px;
+	padding: 5px 0 0;
+	background-color: #fff;
+}
+
+.content p{
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em; 
+}
+
+/* Table */
+
+.list{
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	margin-bottom: 20px;
+	font-family: times new roman;
+	font-size: 10pt;
+	padding-top: 5px;
+}
+
+
+
+.list td{
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.list tr td{
+	padding: 10px;
+}
+
+
+.list tr td a{
+	color: red;
+}
+
+.list tr td a:hover{
+	color: green;
+}
+
+.list thead td{
+	background-color: lightgreen;
+	padding: 8px 10px; text-transform: capitalize;
+}
+
+.list thead td a, .list thead td{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+.list td a{
+	text-decoration: none;
+}
+
+.list .left{
+	text-align: left;
+	padding: 7px;
+}
+
+.list tbody a{
+	text-decoration: none;
+}
+
+.list tbody td{
+	vertical-align: middle;
+	padding: 4px 5px;
+}
+
+.list tbody tr:odd {
+	background: #FFFFFF;
+}
+
+
+.list select{
+	width: 105px;
+	height: 25px;
+}
+
+
+.list .tanggal{
+	background: red;
+}
+
+.list_transaksi{
+	border-collapse: collapse;
+	width: 100%;
+	border-top: none;
+	border-left: none;
+	margin-bottom: 20px;
+	font-family: times new roman;
+	font-size: 10pt;
+	padding-top: 5px;
+}
+
+.list_transaksi td{
+	border-right: none;
+	border-bottom: none;
+}
+
+.data_list_transaksi{
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+	font-family: times new roman;
+	font-size: 10pt;
+	padding-top: 5px;
+}
+
+
+.list_transaksi tr td{
+	padding: 10px;
+}
+
+.list_transaksi tr td a{
+	color: red;
+}
+
+.list_transaksi tr td a:hover{
+	color: green;
+}
+
+.list_transaksi thead td{
+	background-color: lightgreen;
+	padding: 8px 10px; text-transform: capitalize;
+}
+
+.list_transaksi thead td a, .list_transaksi thead td{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+
+.list_transaksi td a{
+	text-decoration: none;
+}
+
+.list_transaksi .left{
+	text-align: left;
+	padding: 7px;
+}
+
+.list_transaksi tbody a{
+	text-decoration: none;
+}
+
+.list_transaksi tbody td{
+	vertical-align: middle;
+	padding: 4px 5px;
+}
+
+.list_transaksi select{
+	width: 105px;
+	height: 25px;
+}
+
+.list_transaksi select.nama_menu{
+	width: 250px;
+}
+
+.list_transaksi select.nama_bahan{
+	width: 250px;
+}
+
+.list_transaksi select.pilih_menu{
+	width: 190px;
+}
+
+
+
+.pagination{padding: 10px 0;font-size: 11px; 	border-top:2px solid #4D4D4D;  }
+.pagination a {padding: 4px 5px; color: #333; margin: 0 1px; background:#efefef; border:1px solid #ddd; text-decoration: none;}
+.pagination a:hover {background:#666; color: #fff; border:1px solid #333;}
+.pagination strong {font-weight:bold;padding: 4px 5px; margin: 0 1px; border:1px solid #888888;}
+.pagination-info{font-size:11px; padding: 6px 0 0 0;}
+.paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+
+.footer{
+	
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	font-size: 80%;
+	color: blue;
+	background-color: #40E0D0;
+}
+
+
+
+
+

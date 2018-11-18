@@ -1,0 +1,81 @@
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body{margin-top:10px;
+	background-color:#fff;
+	font-family: Tahoma;
+	text-align: center; 
+}         
+/*
+ tabel
+*/
+
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	border-right: 1px solid #BFBFBF;
+	border-bottom: 1px solid #BFBFBF;
+	margin-bottom: 20px;
+	font-family: Verdana; 
+	font-size: 8pt;
+	padding-top:5px;
+}
+.list td {
+	border-right: 0px;
+	border-bottom: 0px;
+}
+.list thead td {
+	background-color: #E5E5E5; 
+	padding: 0px 5px; text-transform: capitalize;
+	border-bottom : 1px solid #BFBFBF;
+}
+.list thead td a, .list thead td {
+	text-decoration: none; 
+	color: #000000;
+	font-weight: bold;
+	
+}
+.list tbody a {
+	text-decoration: none;
+}
+.list tbody td {
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+.list tbody tr:odd {
+	background: #FFFFFF;
+}
+.list tbody tr:even {
+	background: #E4EEF7;
+}
+.list .left {
+	text-align: left;
+	padding: 7px;
+}
+.list .right {
+	text-align: right;
+	padding: 7px;
+}
+.list .center {
+	text-align: center;
+	padding: 7px;
+}
+.list .asc {
+	padding-right: 15px;
+	background: url('images/asc.png') right center no-repeat;
+}
+.list .desc {
+	padding-right: 15px;
+	background: url('images/desc.png') right center no-repeat;
+}
